@@ -1,0 +1,25 @@
+{
+  "name": "speedtestbot",
+  "version": "1.0.0",
+  "main": "C:/Users/liara-team/Desktop/project/SpeedTestBot/modules/bot.js",
+  "scripts": {
+    "start": "nodemon /modules/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "lighthouse": "^12.1.0",
+    "mongoose": "^8.4.4",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.4",
+    "puppeteer": "^22.12.1",
+    "puppeteer-core": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.7"
+  }
+}
